@@ -1,0 +1,5 @@
+The Lesson 1 and Lesson 2 were compiled together to this one file called Lesson_1.
+So it should be "missing" Lesson 2 from the files here. 
+In Dave's Course those lessons had different folders for eachother, but
+there is no point on doing it just to separate the "main.css" from the 
+"index.html" file.
