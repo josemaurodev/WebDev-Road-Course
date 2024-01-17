@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="José Mauro">
+    <meta name="description" content="This page contains all the things 
+    I'm learing about HTML.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Web Page</title>
+    <link rel="icon" href="/HTML/Lesson_1/Images/html5.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+</head>
+
+<body>
+    <table>
+        <caption>My daily schedule</caption>
+        <thead>
+        <tr>
+            <th>&nbsp;</th>
+            <th scope="col">Time</th>
+            <th scope="col">Activity</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Morning</th>
+                <td><time datetime="08:00">07:45</time>-<time datetime="11:00">12:00</time></td>
+                <td>Internship</td>
+            </tr>
+
+            <tr>
+                <th scope="row">Lunch</th>
+                <td><time datetime="12:00">12:00</time>-<time datetime="13:00">13:00</time></td>
+                <td>Lunch</td>
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td><time datetime="13:00">13:00</time>-<time datetime="15:00">15:00</time></td>
+                <td>Japanese</td>
+            </tr>
+            <tr>
+                <th scope="row">Evening</th>
+                <td rowspan="2">All other Times</td>
+                <td>Free Time</td>
+            </tr>
+            <tr>
+                <th scope="row">Night</th>
+                <td>Sleep</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Schedule for the week</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+    <h3>Here are some useful commands</h3>
+    <br>REMEMBER TO ONLY CONSIDERER THE UPPERCASE LETTERS
+    <p>This is now a order list:
+        <ol>
+            <li>H1, H2, H3 and so on... Is the TAG to create a title.</li>
+            <li>P is the TAG to create a paragraph.</li>
+            <li><strong>STRONG is the TAG to create a bold word inline.</strong></li>
+            <li>&NBSP; is the command to create a space. Like this -&nbsp;-</li>
+            <li>&LowerThan and &GreaterThan are the commands create greater and lower than symbols, 
+                like this: &lt; or &gt;</li>
+            <li>&Copy is the command to create the copyright symbol, like this: &copy; But the command should 
+                be user with uppercase.
+            </li>
+        </ol>
+    </p>
+    <p>This is now a UNorder list:
+        <ul>
+            <li> H1, H2, H3 and so on... Is the TAG to create a title.</li>
+            <li> P is the TAG to create a paragraph.</li>
+            <li> <strong>STRONG is the TAG to create a bold word inline.</strong></li>
+            <li> &NBSP; is the command to create a space. Like this -&nbsp;-</li>
+            <li> &LowerThan and &GreaterThan are the commands create greater and lower than symbols, 
+                like this: &lt; or &gt;</li>
+            <li> &Copy is the command to create the copyright symbol, like this: &copy; But the command should 
+                be used with uppercase. 
+            </li>
+        </ul>
+    </p>
+
+    br*150
+
+    <section id="images">
+        <h2>Here some image will be posted, so that I can learn how to manipulate them properly</h2>
+        <figure>
+            <img src="Images/Magnus.jpg" alt="Magnus Carlsen" title="An image that show Carlsen moving a piece" width="300" height="200" loading="lazy">
+            <figcaption>Magnus Carlsen, the best Chess player in the world, in action.</figcaption>
+        </figure>
+    </section>
+
+    <hr>
+</body>
+</html>
