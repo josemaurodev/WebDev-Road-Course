@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cart Quantity</h1>
+    <button 
+        onclick="
+        if(quantity ==0){
+            alert(`Your cart is empty`);
+        }
+        if(quantity != 0){
+            alert(`Your cart has ${quantity} items`);
+        }"
+        >Show Quantity   
+    </button>
+    <button
+        onclick="
+        quantity = quantity+1;
+        console.log('One item was add to your cart, your total is: '+quantity)
+        "
+        >Add 1 to cart
+    </button>
+    <button
+        onclick="
+        quantity = quantity+2;
+        console.log('Two items were add to your cart, your total is: '+quantity)
+        "
+        >+2
+    </button>
+    <button
+        onclick="
+        quantity = quantity+3;
+        console.log('Three items were add to your cart, your total is: '+quantity )
+        "
+        >+3
+    </button>
+    <button
+        onclick="
+        quantity = 0;
+        console.log('Yor cart was reseted')
+        "
+        >Reset Cart
+    </button>
+
+    <script>
+        var quantity = 0
+        var varible1 = 'Jose';
+        var number1 = 3;
+        var number2 = 3;
+        console.log(`This is a sum from variable1 + variable2 = ` +(number1+number2));
+        var calc = number1 * number2;
+        console.log(`This is showing the variable calc = ` +calc);
+    </script>
+</body>
+</html>
